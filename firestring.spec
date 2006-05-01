@@ -32,7 +32,7 @@ strncasecmp, snprintf).
 Summary:	Header files for firestring library
 Summary(pl):	Pliki nag³ówkowe biblioteki firestring
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for firestring library.
@@ -44,7 +44,7 @@ Pliki nag³ówkowe biblioteki firestring.
 Summary:	Static firestring library
 Summary(pl):	Statyczna biblioteka firestring
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static firestring library.
