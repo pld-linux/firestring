@@ -1,5 +1,5 @@
 Summary:	FireString - string handling library
-Summary(pl):	FireString - biblioteka obs³uguj±ca ³añcuchy znakowe
+Summary(pl.UTF-8):   FireString - biblioteka obsÅ‚ugujÄ…ca Å‚aÅ„cuchy znakowe
 Name:		firestring
 Version:	0.1.23
 Release:	1
@@ -19,37 +19,37 @@ provided for by POSIX, enabling programmers to write POSIX-compliant
 code while using such safe functions (strcasecmp, strncasecmp,
 snprintf).
 
-%description -l pl
-libfirestring to biblioteka obs³uguj±ca ³añcuchy znakowe dostarczaj±ca
-funkcje obs³uguj±ce ³añcuchy z kontrol± maksymalnej d³ugo¶ci. Kilka
-funkcji ma bardziej rozs±dne interfejsy ni¿ standardowe funkcje libc.
-libfirestring dostarcza tak¿e funkcje, które s± w wiêkszo¶ci libc, ale
-nie s± wymagane przez POSIX, co pozwala programistom pisaæ zgodny z
-POSIX kod z u¿yciem tych bezpiecznych funkcji (strcasecmp,
+%description -l pl.UTF-8
+libfirestring to biblioteka obsÅ‚ugujÄ…ca Å‚aÅ„cuchy znakowe dostarczajÄ…ca
+funkcje obsÅ‚ugujÄ…ce Å‚aÅ„cuchy z kontrolÄ… maksymalnej dÅ‚ugoÅ›ci. Kilka
+funkcji ma bardziej rozsÄ…dne interfejsy niÅ¼ standardowe funkcje libc.
+libfirestring dostarcza takÅ¼e funkcje, ktÃ³re sÄ… w wiÄ™kszoÅ›ci libc, ale
+nie sÄ… wymagane przez POSIX, co pozwala programistom pisaÄ‡ zgodny z
+POSIX kod z uÅ¼yciem tych bezpiecznych funkcji (strcasecmp,
 strncasecmp, snprintf).
 
 %package devel
 Summary:	Header files for firestring library
-Summary(pl):	Pliki nag³ówkowe biblioteki firestring
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki firestring
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for firestring library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki firestring.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki firestring.
 
 %package static
 Summary:	Static firestring library
-Summary(pl):	Statyczna biblioteka firestring
+Summary(pl.UTF-8):   Statyczna biblioteka firestring
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static firestring library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka firestring.
 
 %prep
