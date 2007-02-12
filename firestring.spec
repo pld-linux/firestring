@@ -1,5 +1,5 @@
 Summary:	FireString - string handling library
-Summary(pl.UTF-8):   FireString - biblioteka obsługująca łańcuchy znakowe
+Summary(pl.UTF-8):	FireString - biblioteka obsługująca łańcuchy znakowe
 Name:		firestring
 Version:	0.1.23
 Release:	1
@@ -30,7 +30,7 @@ strncasecmp, snprintf).
 
 %package devel
 Summary:	Header files for firestring library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki firestring
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki firestring
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -42,7 +42,7 @@ Pliki nagłówkowe biblioteki firestring.
 
 %package static
 Summary:	Static firestring library
-Summary(pl.UTF-8):   Statyczna biblioteka firestring
+Summary(pl.UTF-8):	Statyczna biblioteka firestring
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
